@@ -1,1 +1,262 @@
 /* место для вашего кода */
+.body {
+    width: 1440px;
+    height: 2844px;
+    text-align: center;
+}
+
+.header {
+  display: flex;  
+  width: 1340px;
+  height: 109px;
+}
+
+.header-menu {
+    width: 388px;
+    height: 23px;
+}
+
+.menu-content-1 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-content-2 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-content-3 {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-logo {
+    width: 148px;
+    height: 105px;
+}
+
+.header-contacts {
+    width: 240px;
+    height: 97px;
+}
+
+.cover {
+    width: 1440px;
+    height: 757px;
+}
+
+.cover-title {
+    width: 1340px;
+    height: 355px;
+}
+
+.cover-logo {
+    width: 1440px;
+    height: 757px;
+}
+
+.cover-overlay {
+    opacity: 0.6000000238418579;
+    background: #000;
+}
+
+.lots {
+    width: 1340px;
+    height: 579px;
+}
+
+.lots-title {
+    width: 121px;
+    height: 47px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.lot-1 {
+    width: 430px;
+    height: 450px;
+}
+
+.lot-1-title {
+    width: 350px;
+}
+
+.lots-overlay-1 {
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.lot-2 {
+    width: 430px;
+    height: 450px;
+}
+
+.lot-2-title {
+    width: 350px;
+    height: 80px;
+}
+
+.lots-overlay-2 {
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.lot-3 {
+    width: 430px;
+    height: 450px;
+}
+
+.lot-3-title {
+    width: 350px;
+    height: 74px;
+}
+
+.lots-overlay-3 {
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.lots-more {
+    width: 192px;
+    height: 23px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about {
+    width: 1340px;
+    height: 487px;
+}
+
+.logo-column {
+    display: flex;
+    width: 430px;
+    height: 240px;
+    padding: 0px 95px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-logo {
+    width: 240px;
+    height: 240px;
+}
+
+.about-logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+.about-column {
+    display: inline-flex;
+    height: 388px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    flex-shrink: 0;
+}
+
+.about-title {
+    width: 1340px;
+    height: 355px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.about-text {
+    width: 885px;
+    height: 240px;
+}
+
+.footer {
+    width: 1340px;
+    height: 97px;
+}
+
+.socials {
+    width: 240px;
+    height: 48px;
+}
+
+.socials-logo-1 {
+    width: 240px;
+    height: 48px;
+}
+
+.socials-logo-2 {
+    width: 240px;
+    height: 48px;
+}
+
+.socials-logo-3 {
+    width: 240px;
+    height: 48px;
+}
+
+
+
+.footer-menu {
+    width: 149px;
+    height: 64px;
+}
+
+.footer-menu-content-1 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-menu-content-2 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-menu-content-3 {
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-contacts {
+    width: 240px;
+    height: 97px;
+}
