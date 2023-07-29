@@ -414,7 +414,6 @@
 .about-column {
     display: inline-flex;
     height: 388px;
-    padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
