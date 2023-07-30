@@ -1,3 +1,9 @@
+.body {
+    width: 1440px;
+    height: 2844px;
+    margin: auto;
+}
+
 .header {
   display: grid;  
   width: 1340px;
@@ -19,7 +25,7 @@
     align-content: center;
 }
 
-.menu-content {
+.header-menu-content {
     color: #000;
     font-family: Raleway;
     font-size: 18px;
@@ -27,6 +33,7 @@
     font-weight: 400;
     line-height: normal;
     text-underline-offset: 5px;
+    text-decoration: #000;
 }
 
 .header-circles {
@@ -48,13 +55,13 @@
     display: grid;
     width: 240px;
     height: 97px;
-    text-underline-offset: 4px;
     color: #000;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px; /* 135% */
+    text-underline-offset: 4px;
     position: relative;
     left: 405px;
     top: 2px;
@@ -382,10 +389,11 @@
 .about {
     display: flex;
     width: 1340px;
-    height: 487px;
+    height: 674px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 181px;
+    padding-bottom: 367px;
 }
 
 .logo-column {
@@ -465,27 +473,36 @@
 }
 
 .footer {
+    display: flex;
     width: 1340px;
     height: 97px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 177px;
+    padding-bottom: 90px;
+    justify-content: space-between;
 }
 
 .socials {
-    width: 240px;
+    display: grid;
+    width: 140px;
     height: 48px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 45px;
 }
 
 .socials-logo-1 {
-    width: 240px;
+    width: 50px;
     height: 48px;
 }
 
 .socials-logo-2 {
-    width: 240px;
+    width: 50px;
     height: 48px;
 }
 
 .socials-logo-3 {
-    width: 240px;
+    width: 50px;
     height: 48px;
 }
 
@@ -494,7 +511,7 @@
     height: 64px;
 }
 
-.footer-menu-content-1 {
+.footer-menu-content {
     color: #000;
     text-align: center;
     font-family: Raleway;
@@ -502,29 +519,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-.footer-menu-content-2 {
-    color: #000;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.footer-menu-content-3 {
-    color: #000;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    text-underline-offset: 5px;
 }
 
 .footer-contacts {
     width: 240px;
     height: 97px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
+    text-underline-offset: 4px;
 } 
