@@ -5,15 +5,15 @@
 }
 
 .header {
-  display: grid;  
-  width: 1340px;
-  height: 109px;
-  grid-template-columns: 1fr min-content 1fr;
-  padding-left: 51px;
-  padding-right: 49px;
-  padding-top: 92px;
-  padding-bottom: 200px;
-  align-items: center;
+    display: grid;  
+    width: 1340px;
+    height: 109px;
+    grid-template-columns: 1fr min-content 1fr;
+    padding-left: 51px;
+    padding-right: 49px;
+    padding-top: 92px;
+    padding-bottom: 200px;
+    align-items: center;
 }
 
 .header-menu {
@@ -214,15 +214,6 @@
     display: flex;
     width: 257px;
     height: 52px;
-    justify-content: center;
-    align-items: center;
-    background: transparent;
-    border: 1px solid #FFF;
-}
-
-.text-button {
-    width: 193px;
-    height: 28px;
     color: #FFF;
     text-align: center;
     font-family: Raleway;
@@ -231,6 +222,10 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #FFF;
 }
 
 .lots {
